@@ -1,0 +1,67 @@
+{
+  "status": "passed",
+  "version": "1.0",
+  "reviewed_window": "2022–2024; 2021 baseline only",
+  "source_hashes": {
+    "pi-dataset-september-2026-release.csv": "6fc730af4f6701968b74c48de4b04e7ea667a1d6cf9821ee7ffde88769e0364e",
+    "2023-child-and-adult-health-care-quality-measures.csv": "aca9f7d29311d86df66fbde969a97f404db6e6b8b0ba22e8ffac4622c031f332",
+    "2024-child-and-adult-health-care-quality-measures.csv": "7cea1841357c046a9fbd5c548f6eac460e0f14ed76fd70e8eaab6c1bfbf0a859",
+    "2025-child-and-adult-health-care-quality-measures.csv": "2ced8b263fad67b099dec2339f4b3288431b061e1475ec87f9768619dec018a3"
+  },
+  "record_counts": {
+    "fact_enrollment": 2448,
+    "fact_quality": 840,
+    "quality_map": 317,
+    "quality_primary_trend": 63,
+    "comparison_exploratory": 317
+  },
+  "adult_missing": 1530,
+  "adult_total": 1836,
+  "indicator_summary": [
+    {
+      "measure_id": "AMR-AD",
+      "target_age": "19–64",
+      "primary_states": 17,
+      "caution_additional_states": 6,
+      "map_2023": 43,
+      "map_2024": 42,
+      "map_2025": 41
+    },
+    {
+      "measure_id": "BCS-AD",
+      "target_age": "50–64",
+      "primary_states": 0,
+      "caution_additional_states": 13,
+      "map_2023": 33,
+      "map_2024": 35,
+      "map_2025": 36
+    },
+    {
+      "measure_id": "CBP-AD",
+      "target_age": "18–64",
+      "primary_states": 4,
+      "caution_additional_states": 4,
+      "map_2023": 27,
+      "map_2024": 29,
+      "map_2025": 31
+    }
+  ],
+  "checks": [
+    "source hashes match reviewed sources",
+    "supported P/N and U/Y pairs only",
+    "one record per state-month",
+    "nonnegative integer enrollment; totals reconcile",
+    "quality numeric tokens explicit; percent range validated",
+    "one default target representative per state-year-measure",
+    "all fixed-cohort states have 3 eligible years",
+    "153 complete target state-years",
+    "foreign keys valid"
+  ],
+  "limitations": [
+    "2025 dictionary inferred, not official",
+    "reference year nominal, not identical observation window",
+    "analyst trend cohorts not CMS cohorts",
+    "cross-sectional rates not case-mix adjusted",
+    "denominator not used for weighting; hybrid may be sample size"
+  ]
+}
