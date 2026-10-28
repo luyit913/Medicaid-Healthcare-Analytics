@@ -1,0 +1,1463 @@
+{
+  "reviews": [
+    {
+      "state": "Alabama",
+      "state_code": "AL",
+      "measure_id": "AMR-AD",
+      "trend_tier": "primary",
+      "review_reason": "AMR consistently uses FFS/PCCM and Administrative methodology. Medicaid becoming Title XIX/XXI is inferred to refine classification. CBP explicitly excludes dual eligibles in 2023/24 but no longer states this in 2025; consistent scope cannot be confirmed. BCS also changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Alabama",
+      "state_code": "AL",
+      "measure_id": "BCS-AD",
+      "trend_tier": "caution",
+      "review_reason": "AMR consistently uses FFS/PCCM and Administrative methodology. Medicaid becoming Title XIX/XXI is inferred to refine classification. CBP explicitly excludes dual eligibles in 2023/24 but no longer states this in 2025; consistent scope cannot be confirmed. BCS also changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Alabama",
+      "state_code": "AL",
+      "measure_id": "CBP-AD",
+      "trend_tier": "caution",
+      "review_reason": "AMR consistently uses FFS/PCCM and Administrative methodology. Medicaid becoming Title XIX/XXI is inferred to refine classification. CBP explicitly excludes dual eligibles in 2023/24 but no longer states this in 2025; consistent scope cannot be confirmed. BCS also changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Alaska",
+      "state_code": "AK",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "No usable official representative rates for the three target measures; retain the geographic units as missing.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Alaska",
+      "state_code": "AK",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "No usable official representative rates for the three target measures; retain the geographic units as missing.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Alaska",
+      "state_code": "AK",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "No usable official representative rates for the three target measures; retain the geographic units as missing.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Arizona",
+      "state_code": "AZ",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "MCO-only in 2023/24; FFS added in 2025. AMR/CBP also show changes in Separate CHIP reporting scope. CBP mixed-method composition changes. Substantive delivery-system change; exclude from primary trends.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Arizona",
+      "state_code": "AZ",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "MCO-only in 2023/24; FFS added in 2025. AMR/CBP also show changes in Separate CHIP reporting scope. CBP mixed-method composition changes. Substantive delivery-system change; exclude from primary trends.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Arizona",
+      "state_code": "AZ",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "MCO-only in 2023/24; FFS added in 2025. AMR/CBP also show changes in Separate CHIP reporting scope. CBP mixed-method composition changes. Substantive delivery-system change; exclude from primary trends.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Arkansas",
+      "state_code": "AR",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Only BCS has representative rates in all three years. Other refers to Expansion and Separate CHIP in different years; comments exclude dual eligibles. Scope remains ambiguous and methodology changes to ECDS in 2025; exclude from primary trends.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Arkansas",
+      "state_code": "AR",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Only BCS has representative rates in all three years. Other refers to Expansion and Separate CHIP in different years; comments exclude dual eligibles. Scope remains ambiguous and methodology changes to ECDS in 2025; exclude from primary trends.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Arkansas",
+      "state_code": "AR",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Only BCS has representative rates in all three years. Other refers to Expansion and Separate CHIP in different years; comments exclude dual eligibles. Scope remains ambiguous and methodology changes to ECDS in 2025; exclude from primary trends.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "California",
+      "state_code": "CA",
+      "measure_id": "AMR-AD",
+      "trend_tier": "primary",
+      "review_reason": "AMR includes Medicaid/CHIP and FFS/MCO in all years. Separate reporting with a combined rate in 2024/25 is supported by component rows as a reporting reorganization. Retain MCO count changes as a limitation. BCS Other explicitly means Separate CHIP, but methodology changes to ECDS. CBP changes from mixed to Administrative methodology, with Separate CHIP wording changes.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "California",
+      "state_code": "CA",
+      "measure_id": "BCS-AD",
+      "trend_tier": "caution",
+      "review_reason": "AMR includes Medicaid/CHIP and FFS/MCO in all years. Separate reporting with a combined rate in 2024/25 is supported by component rows as a reporting reorganization. Retain MCO count changes as a limitation. BCS Other explicitly means Separate CHIP, but methodology changes to ECDS. CBP changes from mixed to Administrative methodology, with Separate CHIP wording changes.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "California",
+      "state_code": "CA",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR includes Medicaid/CHIP and FFS/MCO in all years. Separate reporting with a combined rate in 2024/25 is supported by component rows as a reporting reorganization. Retain MCO count changes as a limitation. BCS Other explicitly means Separate CHIP, but methodology changes to ECDS. CBP changes from mixed to Administrative methodology, with Separate CHIP wording changes.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Colorado",
+      "state_code": "CO",
+      "measure_id": "AMR-AD",
+      "trend_tier": "primary",
+      "review_reason": "AMR Medicaid & Dual Eligibles and Title XIX+dual eligibles are equivalent labels. FFS/PCCM/MCO scope and methodology remain stable. CBP in 2023 is labeled Hybrid, but comments already describe mixed methods. One MCO changes to Hybrid and clinical data are added in 2025, a substantive methodology-composition change. BCS progressively changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Colorado",
+      "state_code": "CO",
+      "measure_id": "BCS-AD",
+      "trend_tier": "caution",
+      "review_reason": "AMR Medicaid & Dual Eligibles and Title XIX+dual eligibles are equivalent labels. FFS/PCCM/MCO scope and methodology remain stable. CBP in 2023 is labeled Hybrid, but comments already describe mixed methods. One MCO changes to Hybrid and clinical data are added in 2025, a substantive methodology-composition change. BCS progressively changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Colorado",
+      "state_code": "CO",
+      "measure_id": "CBP-AD",
+      "trend_tier": "caution",
+      "review_reason": "AMR Medicaid & Dual Eligibles and Title XIX+dual eligibles are equivalent labels. FFS/PCCM/MCO scope and methodology remain stable. CBP in 2023 is labeled Hybrid, but comments already describe mixed methods. One MCO changes to Hybrid and clinical data are added in 2025, a substantive methodology-composition change. BCS progressively changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Connecticut",
+      "state_code": "CT",
+      "measure_id": "AMR-AD",
+      "trend_tier": "primary",
+      "review_reason": "Medicaid+CHIP and FFS in all years. Separate reporting with a combined rate in 2024/25; component rows confirm FFS. AMR remains Administrative and CBP Hybrid. DS/ND in denominator or component rows does not invalidate a numeric combined rate. BCS changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Connecticut",
+      "state_code": "CT",
+      "measure_id": "BCS-AD",
+      "trend_tier": "caution",
+      "review_reason": "Medicaid+CHIP and FFS in all years. Separate reporting with a combined rate in 2024/25; component rows confirm FFS. AMR remains Administrative and CBP Hybrid. DS/ND in denominator or component rows does not invalidate a numeric combined rate. BCS changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Connecticut",
+      "state_code": "CT",
+      "measure_id": "CBP-AD",
+      "trend_tier": "primary",
+      "review_reason": "Medicaid+CHIP and FFS in all years. Separate reporting with a combined rate in 2024/25; component rows confirm FFS. AMR remains Administrative and CBP Hybrid. DS/ND in denominator or component rows does not invalidate a numeric combined rate. BCS changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Delaware",
+      "state_code": "DE",
+      "measure_id": "AMR-AD",
+      "trend_tier": "primary",
+      "review_reason": "AMR Medicaid to Title XIX is a label change; FFS/MCO continues. Disclose MCO count change from 2 to 3. BCS/CBP explicitly exclude FFS in 2023 and later add it. CBP adds combined CHIP reporting (age 18) in 2025; substantive scope change.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Delaware",
+      "state_code": "DE",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR Medicaid to Title XIX is a label change; FFS/MCO continues. Disclose MCO count change from 2 to 3. BCS/CBP explicitly exclude FFS in 2023 and later add it. CBP adds combined CHIP reporting (age 18) in 2025; substantive scope change.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Delaware",
+      "state_code": "DE",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR Medicaid to Title XIX is a label change; FFS/MCO continues. Disclose MCO count change from 2 to 3. BCS/CBP explicitly exclude FFS in 2023 and later add it. CBP adds combined CHIP reporting (age 18) in 2025; substantive scope change.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "District of Columbia",
+      "state_code": "DC",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Source name Dist. of Col. maps to DC. AMR in 2024 explicitly reflects the April 2023 plan transition. Dual-eligible and CHIP wording changes. CBP changes from Hybrid to Administrative. BCS lacks 2024.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "District of Columbia",
+      "state_code": "DC",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Source name Dist. of Col. maps to DC. AMR in 2024 explicitly reflects the April 2023 plan transition. Dual-eligible and CHIP wording changes. CBP changes from Hybrid to Administrative. BCS lacks 2024.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "District of Columbia",
+      "state_code": "DC",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Source name Dist. of Col. maps to DC. AMR in 2024 explicitly reflects the April 2023 plan transition. Dual-eligible and CHIP wording changes. CBP changes from Hybrid to Administrative. BCS lacks 2024.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Florida",
+      "state_code": "FL",
+      "measure_id": "AMR-AD",
+      "trend_tier": "caution",
+      "review_reason": "AMR remains MCO-only, but plan-switcher exclusion notes appear in 2024/25. Whether this is a new rule is unknown; caution-only. BCS uses ages 50–74 and CBP ages 18–85 in all years; exclude each year for target-age mismatch.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Florida",
+      "state_code": "FL",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR remains MCO-only, but plan-switcher exclusion notes appear in 2024/25. Whether this is a new rule is unknown; caution-only. BCS uses ages 50–74 and CBP ages 18–85 in all years; exclude each year for target-age mismatch.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Florida",
+      "state_code": "FL",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR remains MCO-only, but plan-switcher exclusion notes appear in 2024/25. Whether this is a new rule is unknown; caution-only. BCS uses ages 50–74 and CBP ages 18–85 in all years; exclude each year for target-age mismatch.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Georgia",
+      "state_code": "GA",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Representative rates only in 2023, MCO-only; does not meet the fixed three-year cohort requirement.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Georgia",
+      "state_code": "GA",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Representative rates only in 2023, MCO-only; does not meet the fixed three-year cohort requirement.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Georgia",
+      "state_code": "GA",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Representative rates only in 2023, MCO-only; does not meet the fixed three-year cohort requirement.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Hawaii",
+      "state_code": "HI",
+      "measure_id": "AMR-AD",
+      "trend_tier": "primary",
+      "review_reason": "AMR broad CHIP to Expansion CHIP is an inferred classification refinement; 5 MCOs and Administrative methodology continue. CBP changes from mixed to Hybrid to mixed methodology, indicating composition changes. BCS changes from Administrative to EHR to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Hawaii",
+      "state_code": "HI",
+      "measure_id": "BCS-AD",
+      "trend_tier": "caution",
+      "review_reason": "AMR broad CHIP to Expansion CHIP is an inferred classification refinement; 5 MCOs and Administrative methodology continue. CBP changes from mixed to Hybrid to mixed methodology, indicating composition changes. BCS changes from Administrative to EHR to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Hawaii",
+      "state_code": "HI",
+      "measure_id": "CBP-AD",
+      "trend_tier": "caution",
+      "review_reason": "AMR broad CHIP to Expansion CHIP is an inferred classification refinement; 5 MCOs and Administrative methodology continue. CBP changes from mixed to Hybrid to mixed methodology, indicating composition changes. BCS changes from Administrative to EHR to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Idaho",
+      "state_code": "ID",
+      "measure_id": "AMR-AD",
+      "trend_tier": "caution",
+      "review_reason": "Expansion CHIP appears in 2024 and disappears in 2025; a label-only change cannot be established. MCO counts change; AMR is caution-only. CBP in 2025 explicitly lacks CPT-II claims and is incomplete; exclude that year. BCS changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Idaho",
+      "state_code": "ID",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Expansion CHIP appears in 2024 and disappears in 2025; a label-only change cannot be established. MCO counts change; AMR is caution-only. CBP in 2025 explicitly lacks CPT-II claims and is incomplete; exclude that year. BCS changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Idaho",
+      "state_code": "ID",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Expansion CHIP appears in 2024 and disappears in 2025; a label-only change cannot be established. MCO counts change; AMR is caution-only. CBP in 2025 explicitly lacks CPT-II claims and is incomplete; exclude that year. BCS changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Illinois",
+      "state_code": "IL",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "MCO-only in 2023; 2024 component rows show FFS/MCO. No representative rate in 2025. AMR values are suppressed; no three-year trend.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Illinois",
+      "state_code": "IL",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "MCO-only in 2023; 2024 component rows show FFS/MCO. No representative rate in 2025. AMR values are suppressed; no three-year trend.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Illinois",
+      "state_code": "IL",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "MCO-only in 2023; 2024 component rows show FFS/MCO. No representative rate in 2025. AMR values are suppressed; no three-year trend.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Indiana",
+      "state_code": "IN",
+      "measure_id": "AMR-AD",
+      "trend_tier": "primary",
+      "review_reason": "AMR consistently uses Medicaid, FFS/MCO, and Administrative methodology. MCO count change from 4 to 5 is a structural limitation. BCS ages are 50–74/18–74/50+; CBP ages are 18+/18–85/18+. Explicit target-age mismatch; exclude all affected records.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Indiana",
+      "state_code": "IN",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR consistently uses Medicaid, FFS/MCO, and Administrative methodology. MCO count change from 4 to 5 is a structural limitation. BCS ages are 50–74/18–74/50+; CBP ages are 18+/18–85/18+. Explicit target-age mismatch; exclude all affected records.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Indiana",
+      "state_code": "IN",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR consistently uses Medicaid, FFS/MCO, and Administrative methodology. MCO count change from 4 to 5 is a structural limitation. BCS ages are 50–74/18–74/50+; CBP ages are 18+/18–85/18+. Explicit target-age mismatch; exclude all affected records.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Iowa",
+      "state_code": "IA",
+      "measure_id": "AMR-AD",
+      "trend_tier": "primary",
+      "review_reason": "Medicaid+CHIP in 2023; 2024/25 comments explicitly identify Other as Separate CHIP, supporting a reporting label change. FFS/MCO continues; AMR and CBP remain Administrative. New Expansion CHIP wording is inferred to refine the classification. Disclose MCO count change from 2 to 3. BCS changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Iowa",
+      "state_code": "IA",
+      "measure_id": "BCS-AD",
+      "trend_tier": "caution",
+      "review_reason": "Medicaid+CHIP in 2023; 2024/25 comments explicitly identify Other as Separate CHIP, supporting a reporting label change. FFS/MCO continues; AMR and CBP remain Administrative. New Expansion CHIP wording is inferred to refine the classification. Disclose MCO count change from 2 to 3. BCS changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Iowa",
+      "state_code": "IA",
+      "measure_id": "CBP-AD",
+      "trend_tier": "primary",
+      "review_reason": "Medicaid+CHIP in 2023; 2024/25 comments explicitly identify Other as Separate CHIP, supporting a reporting label change. FFS/MCO continues; AMR and CBP remain Administrative. New Expansion CHIP wording is inferred to refine the classification. Disclose MCO count change from 2 to 3. BCS changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Kansas",
+      "state_code": "KS",
+      "measure_id": "AMR-AD",
+      "trend_tier": "caution",
+      "review_reason": "2023 data are provisional. Other explicitly means Separate CHIP in 2024 but is no longer listed in 2025. AMR is caution-only. BCS/CBP are not age-stratified in 2023/24; exclude those years. CBP methodology also changes.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Kansas",
+      "state_code": "KS",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "2023 data are provisional. Other explicitly means Separate CHIP in 2024 but is no longer listed in 2025. AMR is caution-only. BCS/CBP are not age-stratified in 2023/24; exclude those years. CBP methodology also changes.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Kansas",
+      "state_code": "KS",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "2023 data are provisional. Other explicitly means Separate CHIP in 2024 but is no longer listed in 2025. AMR is caution-only. BCS/CBP are not age-stratified in 2023/24; exclude those years. CBP methodology also changes.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Kentucky",
+      "state_code": "KY",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "MCO-only in 2023; FFS added in 2024/25. Other explicitly means Separate CHIP in 2024 but is no longer listed in 2025. BCS/CBP explicitly use wider ages in 2023. CBP changes from Hybrid to Administrative. Substantive changes.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Kentucky",
+      "state_code": "KY",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "MCO-only in 2023; FFS added in 2024/25. Other explicitly means Separate CHIP in 2024 but is no longer listed in 2025. BCS/CBP explicitly use wider ages in 2023. CBP changes from Hybrid to Administrative. Substantive changes.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Kentucky",
+      "state_code": "KY",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "MCO-only in 2023; FFS added in 2024/25. Other explicitly means Separate CHIP in 2024 but is no longer listed in 2025. BCS/CBP explicitly use wider ages in 2023. CBP changes from Hybrid to Administrative. Substantive changes.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Louisiana",
+      "state_code": "LA",
+      "measure_id": "AMR-AD",
+      "trend_tier": "primary",
+      "review_reason": "AMR includes Medicaid+CHIP in all years. Other explicitly means Separate CHIP; reporting labels change. FFS/MCO and Administrative methodology continue. Disclose MCO count change from 5 to 6. BCS CHIP wording and ECDS changes support caution-only. CBP adds FFS in 2025; exclude from primary trends.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Louisiana",
+      "state_code": "LA",
+      "measure_id": "BCS-AD",
+      "trend_tier": "caution",
+      "review_reason": "AMR includes Medicaid+CHIP in all years. Other explicitly means Separate CHIP; reporting labels change. FFS/MCO and Administrative methodology continue. Disclose MCO count change from 5 to 6. BCS CHIP wording and ECDS changes support caution-only. CBP adds FFS in 2025; exclude from primary trends.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Louisiana",
+      "state_code": "LA",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR includes Medicaid+CHIP in all years. Other explicitly means Separate CHIP; reporting labels change. FFS/MCO and Administrative methodology continue. Disclose MCO count change from 5 to 6. BCS CHIP wording and ECDS changes support caution-only. CBP adds FFS in 2025; exclude from primary trends.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Maine",
+      "state_code": "ME",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR/BCS anchor-date rules depart from specifications; 2025 uses an anchor month. 2023 uses paid claims only; PCCM scope changes. Exclude each year under strict project rules. CBP in 2025 explicitly lacks laboratory/EHR/supplemental data; exclude that year.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Maine",
+      "state_code": "ME",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR/BCS anchor-date rules depart from specifications; 2025 uses an anchor month. 2023 uses paid claims only; PCCM scope changes. Exclude each year under strict project rules. CBP in 2025 explicitly lacks laboratory/EHR/supplemental data; exclude that year.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Maine",
+      "state_code": "ME",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR/BCS anchor-date rules depart from specifications; 2025 uses an anchor month. 2023 uses paid claims only; PCCM scope changes. Exclude each year under strict project rules. CBP in 2025 explicitly lacks laboratory/EHR/supplemental data; exclude that year.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Maryland",
+      "state_code": "MD",
+      "measure_id": "AMR-AD",
+      "trend_tier": "primary",
+      "review_reason": "AMR broad CHIP to Expansion CHIP is an inferred refinement. CBP Medicaid to Title XIX is an equivalent label. Both consistently cover 9 MCOs. The dual-eligible exclusion note is omitted in 2025, but the population field does not list dual eligibles and delivery systems remain unchanged. No substantive change identified; retain the limitation. BCS changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Maryland",
+      "state_code": "MD",
+      "measure_id": "BCS-AD",
+      "trend_tier": "caution",
+      "review_reason": "AMR broad CHIP to Expansion CHIP is an inferred refinement. CBP Medicaid to Title XIX is an equivalent label. Both consistently cover 9 MCOs. The dual-eligible exclusion note is omitted in 2025, but the population field does not list dual eligibles and delivery systems remain unchanged. No substantive change identified; retain the limitation. BCS changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Maryland",
+      "state_code": "MD",
+      "measure_id": "CBP-AD",
+      "trend_tier": "primary",
+      "review_reason": "AMR broad CHIP to Expansion CHIP is an inferred refinement. CBP Medicaid to Title XIX is an equivalent label. Both consistently cover 9 MCOs. The dual-eligible exclusion note is omitted in 2025, but the population field does not list dual eligibles and delivery systems remain unchanged. No substantive change identified; retain the limitation. BCS changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Massachusetts",
+      "state_code": "MA",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR/BCS component rows add FFS, ICM, and PCACO in 2024, with CHIP/dual-eligible scope changes. CBP explicitly excludes FFS/PCCM and plan switchers in 2025 and changes from mixed methodology to Hybrid. Substantive definition changes.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Massachusetts",
+      "state_code": "MA",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR/BCS component rows add FFS, ICM, and PCACO in 2024, with CHIP/dual-eligible scope changes. CBP explicitly excludes FFS/PCCM and plan switchers in 2025 and changes from mixed methodology to Hybrid. Substantive definition changes.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Massachusetts",
+      "state_code": "MA",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR/BCS component rows add FFS, ICM, and PCACO in 2024, with CHIP/dual-eligible scope changes. CBP explicitly excludes FFS/PCCM and plan switchers in 2025 and changes from mixed methodology to Hybrid. Substantive definition changes.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Michigan",
+      "state_code": "MI",
+      "measure_id": "AMR-AD",
+      "trend_tier": "primary",
+      "review_reason": "AMR Medicaid becomes Title XIX; data-warehouse name variants are equivalent. FFS/MCO and Administrative methodology continue. BCS lists dual eligibles in 2024 but not 2025 and changes to ECDS; scope is uncertain. CBP adds FFS and mixed methodology in 2025.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Michigan",
+      "state_code": "MI",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR Medicaid becomes Title XIX; data-warehouse name variants are equivalent. FFS/MCO and Administrative methodology continue. BCS lists dual eligibles in 2024 but not 2025 and changes to ECDS; scope is uncertain. CBP adds FFS and mixed methodology in 2025.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Michigan",
+      "state_code": "MI",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR Medicaid becomes Title XIX; data-warehouse name variants are equivalent. FFS/MCO and Administrative methodology continue. BCS lists dual eligibles in 2024 but not 2025 and changes to ECDS; scope is uncertain. CBP adds FFS and mixed methodology in 2025.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Minnesota",
+      "state_code": "MN",
+      "measure_id": "AMR-AD",
+      "trend_tier": "primary",
+      "review_reason": "AMR includes CHIP+dual eligibles in all three years. Other explicitly means Separate CHIP in 2024; separate reporting is combined in 2025. Component FFS/MCO scope continues. The optional deceased-member exclusion in 2023 is documented; omission from later comments does not prove it ended. BCS changes to ECDS. CBP lacks 2023.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Minnesota",
+      "state_code": "MN",
+      "measure_id": "BCS-AD",
+      "trend_tier": "caution",
+      "review_reason": "AMR includes CHIP+dual eligibles in all three years. Other explicitly means Separate CHIP in 2024; separate reporting is combined in 2025. Component FFS/MCO scope continues. The optional deceased-member exclusion in 2023 is documented; omission from later comments does not prove it ended. BCS changes to ECDS. CBP lacks 2023.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Minnesota",
+      "state_code": "MN",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR includes CHIP+dual eligibles in all three years. Other explicitly means Separate CHIP in 2024; separate reporting is combined in 2025. Component FFS/MCO scope continues. The optional deceased-member exclusion in 2023 is documented; omission from later comments does not prove it ended. BCS changes to ECDS. CBP lacks 2023.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Mississippi",
+      "state_code": "MS",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "MCO-only in 2023; 2024 component rows add FFS. CHIP scope expands and some measures add dual eligibles in 2025. CBP changes from Hybrid to Administrative. Substantive scope/method changes.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Mississippi",
+      "state_code": "MS",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "MCO-only in 2023; 2024 component rows add FFS. CHIP scope expands and some measures add dual eligibles in 2025. CBP changes from Hybrid to Administrative. Substantive scope/method changes.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Mississippi",
+      "state_code": "MS",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "MCO-only in 2023; 2024 component rows add FFS. CHIP scope expands and some measures add dual eligibles in 2025. CBP changes from Hybrid to Administrative. Substantive scope/method changes.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Missouri",
+      "state_code": "MO",
+      "measure_id": "AMR-AD",
+      "trend_tier": "primary",
+      "review_reason": "AMR remains FFS/MCO Administrative in all years. Other means Separate CHIP, followed by separate reporting and combination; a reporting reorganization. Disclose MCO count change from 3 to 4. BCS has the same reorganization but changes to ECDS. Zero eligible Separate CHIP members in 2025 must not become a zero rate. CBP lacks 2023 and adds FFS in 2025.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Missouri",
+      "state_code": "MO",
+      "measure_id": "BCS-AD",
+      "trend_tier": "caution",
+      "review_reason": "AMR remains FFS/MCO Administrative in all years. Other means Separate CHIP, followed by separate reporting and combination; a reporting reorganization. Disclose MCO count change from 3 to 4. BCS has the same reorganization but changes to ECDS. Zero eligible Separate CHIP members in 2025 must not become a zero rate. CBP lacks 2023 and adds FFS in 2025.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Missouri",
+      "state_code": "MO",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR remains FFS/MCO Administrative in all years. Other means Separate CHIP, followed by separate reporting and combination; a reporting reorganization. Disclose MCO count change from 3 to 4. BCS has the same reorganization but changes to ECDS. Zero eligible Separate CHIP members in 2025 must not become a zero rate. CBP lacks 2023 and adds FFS in 2025.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Montana",
+      "state_code": "MT",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Representative BCS/CBP rates only in 2025; no fixed three-year trend.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Montana",
+      "state_code": "MT",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Representative BCS/CBP rates only in 2025; no fixed three-year trend.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Montana",
+      "state_code": "MT",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Representative BCS/CBP rates only in 2025; no fixed three-year trend.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Nebraska",
+      "state_code": "NE",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Scope expands from MCO-only to FFS/MCO in 2025. Plan switchers are omitted in 2024 and partly included in 2025. CBP mixed-method proportions change. Substantive scope change.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Nebraska",
+      "state_code": "NE",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Scope expands from MCO-only to FFS/MCO in 2025. Plan switchers are omitted in 2024 and partly included in 2025. CBP mixed-method proportions change. Substantive scope change.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Nebraska",
+      "state_code": "NE",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Scope expands from MCO-only to FFS/MCO in 2025. Plan switchers are omitted in 2024 and partly included in 2025. CBP mixed-method proportions change. Substantive scope change.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Nevada",
+      "state_code": "NV",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "No representative rate in 2025. CBP only in 2023; no three-year trend.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Nevada",
+      "state_code": "NV",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "No representative rate in 2025. CBP only in 2023; no three-year trend.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Nevada",
+      "state_code": "NV",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "No representative rate in 2025. CBP only in 2023; no three-year trend.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "New Hampshire",
+      "state_code": "NH",
+      "measure_id": "AMR-AD",
+      "trend_tier": "caution",
+      "review_reason": "AMR/CBP consistently cover 3 MCOs. Dual eligibles are excluded in 2023 and a plan-switcher exclusion is newly disclosed in 2025. A disclosure-only change cannot be confirmed; caution-only. BCS changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "New Hampshire",
+      "state_code": "NH",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR/CBP consistently cover 3 MCOs. Dual eligibles are excluded in 2023 and a plan-switcher exclusion is newly disclosed in 2025. A disclosure-only change cannot be confirmed; caution-only. BCS changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "New Hampshire",
+      "state_code": "NH",
+      "measure_id": "CBP-AD",
+      "trend_tier": "caution",
+      "review_reason": "AMR/CBP consistently cover 3 MCOs. Dual eligibles are excluded in 2023 and a plan-switcher exclusion is newly disclosed in 2025. A disclosure-only change cannot be confirmed; caution-only. BCS changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "New Jersey",
+      "state_code": "NJ",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "FFS included and plan switchers excluded starting in 2024. CBP in 2025 adds switchers using Administrative data. BCS/CBP lack target-age stratification in 2023/24; exclude those years. 2025 component rows no longer state an age deviation; include that year with a caveat.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "New Jersey",
+      "state_code": "NJ",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "FFS included and plan switchers excluded starting in 2024. CBP in 2025 adds switchers using Administrative data. BCS/CBP lack target-age stratification in 2023/24; exclude those years. 2025 component rows no longer state an age deviation; include that year with a caveat.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "New Jersey",
+      "state_code": "NJ",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "FFS included and plan switchers excluded starting in 2024. CBP in 2025 adds switchers using Administrative data. BCS/CBP lack target-age stratification in 2023/24; exclude those years. 2025 component rows no longer state an age deviation; include that year with a caveat.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "New Mexico",
+      "state_code": "NM",
+      "measure_id": "AMR-AD",
+      "trend_tier": "caution",
+      "review_reason": "AMR changes from 3 to 2 MCOs; coverage completeness is unknown, so caution-only. BCS/CBP age stratification is unclear in 2023 and explicitly wider (50–74/18–85) in 2025; exclude those years. Include 2024 with a caveat.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "New Mexico",
+      "state_code": "NM",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR changes from 3 to 2 MCOs; coverage completeness is unknown, so caution-only. BCS/CBP age stratification is unclear in 2023 and explicitly wider (50–74/18–85) in 2025; exclude those years. Include 2024 with a caveat.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "New Mexico",
+      "state_code": "NM",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR changes from 3 to 2 MCOs; coverage completeness is unknown, so caution-only. BCS/CBP age stratification is unclear in 2023 and explicitly wider (50–74/18–85) in 2025; exclude those years. Include 2024 with a caveat.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "New York",
+      "state_code": "NY",
+      "measure_id": "AMR-AD",
+      "trend_tier": "primary",
+      "review_reason": "AMR Medicaid becomes Title XIX; FFS/MCO and Administrative methodology continue. The 2024 dual-eligible exclusion agrees with the population field. Disclose plan-count changes. CBP remains MCO-only Hybrid; eligible-population weighting is disclosed in 2024/25 and is not treated as a proven change. BCS MCO counts change 60 to 58 to 27 and methodology changes to ECDS; exclude from primary trends.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "New York",
+      "state_code": "NY",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR Medicaid becomes Title XIX; FFS/MCO and Administrative methodology continue. The 2024 dual-eligible exclusion agrees with the population field. Disclose plan-count changes. CBP remains MCO-only Hybrid; eligible-population weighting is disclosed in 2024/25 and is not treated as a proven change. BCS MCO counts change 60 to 58 to 27 and methodology changes to ECDS; exclude from primary trends.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "New York",
+      "state_code": "NY",
+      "measure_id": "CBP-AD",
+      "trend_tier": "primary",
+      "review_reason": "AMR Medicaid becomes Title XIX; FFS/MCO and Administrative methodology continue. The 2024 dual-eligible exclusion agrees with the population field. Disclose plan-count changes. CBP remains MCO-only Hybrid; eligible-population weighting is disclosed in 2024/25 and is not treated as a proven change. BCS MCO counts change 60 to 58 to 27 and methodology changes to ECDS; exclude from primary trends.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "North Carolina",
+      "state_code": "NC",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Dual eligibles are listed from 2024. BCS explicitly uses ages 50–74 and lacks Medicare data in 2024; 2023 comments state ages 18–64. Exclude both years. CBP comments attribute a rate increase to HIE in 2024; EHR is added to methodology in 2025. AMR scope changes cannot be classified as label-only.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "North Carolina",
+      "state_code": "NC",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Dual eligibles are listed from 2024. BCS explicitly uses ages 50–74 and lacks Medicare data in 2024; 2023 comments state ages 18–64. Exclude both years. CBP comments attribute a rate increase to HIE in 2024; EHR is added to methodology in 2025. AMR scope changes cannot be classified as label-only.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "North Carolina",
+      "state_code": "NC",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Dual eligibles are listed from 2024. BCS explicitly uses ages 50–74 and lacks Medicare data in 2024; 2023 comments state ages 18–64. Exclude both years. CBP comments attribute a rate increase to HIE in 2024; EHR is added to methodology in 2025. AMR scope changes cannot be classified as label-only.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "North Dakota",
+      "state_code": "ND",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR adds dual eligibles and supplemental data in 2025, while PCCM is no longer listed. CBP excludes FFS/PCCM/dual eligibles in 2023 and includes them in 2024. BCS methodology changes. Substantive or unresolved scope changes.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "North Dakota",
+      "state_code": "ND",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR adds dual eligibles and supplemental data in 2025, while PCCM is no longer listed. CBP excludes FFS/PCCM/dual eligibles in 2023 and includes them in 2024. BCS methodology changes. Substantive or unresolved scope changes.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "North Dakota",
+      "state_code": "ND",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR adds dual eligibles and supplemental data in 2025, while PCCM is no longer listed. CBP excludes FFS/PCCM/dual eligibles in 2023 and includes them in 2024. BCS methodology changes. Substantive or unresolved scope changes.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Ohio",
+      "state_code": "OH",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR expands from MCO-only to FFS/MCO. BCS uses ages 50–74 and CBP ages 18–85 in all years; exclude each year for target-age mismatch.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Ohio",
+      "state_code": "OH",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR expands from MCO-only to FFS/MCO. BCS uses ages 50–74 and CBP ages 18–85 in all years; exclude each year for target-age mismatch.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Ohio",
+      "state_code": "OH",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR expands from MCO-only to FFS/MCO. BCS uses ages 50–74 and CBP ages 18–85 in all years; exclude each year for target-age mismatch.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Oklahoma",
+      "state_code": "OK",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Continuous-enrollment gap rules depart from specifications in all three years; exclude under strict project rules. MCO added in 2025; this cannot be treated as a label-only change.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Oklahoma",
+      "state_code": "OK",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Continuous-enrollment gap rules depart from specifications in all three years; exclude under strict project rules. MCO added in 2025; this cannot be treated as a label-only change.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Oklahoma",
+      "state_code": "OK",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Continuous-enrollment gap rules depart from specifications in all three years; exclude under strict project rules. MCO added in 2025; this cannot be treated as a label-only change.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Oregon",
+      "state_code": "OR",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR lacks 2023. BCS has no representative rate. CBP uses ages 18–85 in 2023; exclude that year.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Oregon",
+      "state_code": "OR",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR lacks 2023. BCS has no representative rate. CBP uses ages 18–85 in 2023; exclude that year.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Oregon",
+      "state_code": "OR",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR lacks 2023. BCS has no representative rate. CBP uses ages 18–85 in 2023; exclude that year.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Pennsylvania",
+      "state_code": "PA",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR expands from Medicaid-only to combined Medicaid+CHIP, with MCO counts changing from 7 to 11; a label-only change cannot be established. BCS/CBP use wider ages in 2023; exclude. Target rates in 2024/25 may be shown individually, retaining plan-switcher exclusion caveats.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Pennsylvania",
+      "state_code": "PA",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR expands from Medicaid-only to combined Medicaid+CHIP, with MCO counts changing from 7 to 11; a label-only change cannot be established. BCS/CBP use wider ages in 2023; exclude. Target rates in 2024/25 may be shown individually, retaining plan-switcher exclusion caveats.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Pennsylvania",
+      "state_code": "PA",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR expands from Medicaid-only to combined Medicaid+CHIP, with MCO counts changing from 7 to 11; a label-only change cannot be established. BCS/CBP use wider ages in 2023; exclude. Target rates in 2024/25 may be shown individually, retaining plan-switcher exclusion caveats.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Rhode Island",
+      "state_code": "RI",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "FFS and some dual eligibles added in 2025, a substantive scope change. BCS uses ages 50+ in 2023/25; CBP uses ages 18+ in all three years. Exclude affected records.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Rhode Island",
+      "state_code": "RI",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "FFS and some dual eligibles added in 2025, a substantive scope change. BCS uses ages 50+ in 2023/25; CBP uses ages 18+ in all three years. Exclude affected records.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Rhode Island",
+      "state_code": "RI",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "FFS and some dual eligibles added in 2025, a substantive scope change. BCS uses ages 50+ in 2023/25; CBP uses ages 18+ in all three years. Exclude affected records.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "South Carolina",
+      "state_code": "SC",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "FFS added in 2024, a substantive scope change for AMR/BCS. 2025 explicitly uses CY2024. CBP uses ages 18–85 in 2023/24; exclude. The deviation is no longer stated in 2025; include that year with a caveat.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "South Carolina",
+      "state_code": "SC",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "FFS added in 2024, a substantive scope change for AMR/BCS. 2025 explicitly uses CY2024. CBP uses ages 18–85 in 2023/24; exclude. The deviation is no longer stated in 2025; include that year with a caveat.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "South Carolina",
+      "state_code": "SC",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "FFS added in 2024, a substantive scope change for AMR/BCS. 2025 explicitly uses CY2024. CBP uses ages 18–85 in 2023/24; exclude. The deviation is no longer stated in 2025; include that year with a caveat.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "South Dakota",
+      "state_code": "SD",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR adds dual eligibles in 2024 and changes from FFS to FFS/PCCM in 2025. Classification refinement cannot be confirmed; exclude from primary trends. BCS lacks 2024. CBP has no representative rate.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "South Dakota",
+      "state_code": "SD",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR adds dual eligibles in 2024 and changes from FFS to FFS/PCCM in 2025. Classification refinement cannot be confirmed; exclude from primary trends. BCS lacks 2024. CBP has no representative rate.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "South Dakota",
+      "state_code": "SD",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR adds dual eligibles in 2024 and changes from FFS to FFS/PCCM in 2025. Classification refinement cannot be confirmed; exclude from primary trends. BCS lacks 2024. CBP has no representative rate.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Tennessee",
+      "state_code": "TN",
+      "measure_id": "AMR-AD",
+      "trend_tier": "primary",
+      "review_reason": "AMR changes from CHIP+dual eligibles to Other (explicitly adult Separate CHIP), then separate reporting with a combined rate. Component MCO scope and Administrative methodology remain consistent; treat as reporting reorganization. BCS uses ages 50–74 in 2023; exclude. CBP uses ages 18+ in all years, including evidence from 2025 components; exclude all three years.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Tennessee",
+      "state_code": "TN",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR changes from CHIP+dual eligibles to Other (explicitly adult Separate CHIP), then separate reporting with a combined rate. Component MCO scope and Administrative methodology remain consistent; treat as reporting reorganization. BCS uses ages 50–74 in 2023; exclude. CBP uses ages 18+ in all years, including evidence from 2025 components; exclude all three years.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Tennessee",
+      "state_code": "TN",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR changes from CHIP+dual eligibles to Other (explicitly adult Separate CHIP), then separate reporting with a combined rate. Component MCO scope and Administrative methodology remain consistent; treat as reporting reorganization. BCS uses ages 50–74 in 2023; exclude. CBP uses ages 18+ in all years, including evidence from 2025 components; exclude all three years.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Texas",
+      "state_code": "TX",
+      "measure_id": "AMR-AD",
+      "trend_tier": "primary",
+      "review_reason": "AMR consistently uses FFS/MCO, Administrative methodology, and similar claims sources. New Expansion CHIP wording is inferred to refine classification. CBP excludes FFS/STAR Health/Kids in 2023, adds FFS in 2024, and adds switchers and combined CHIP in 2025; exclude from trends. BCS changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Texas",
+      "state_code": "TX",
+      "measure_id": "BCS-AD",
+      "trend_tier": "caution",
+      "review_reason": "AMR consistently uses FFS/MCO, Administrative methodology, and similar claims sources. New Expansion CHIP wording is inferred to refine classification. CBP excludes FFS/STAR Health/Kids in 2023, adds FFS in 2024, and adds switchers and combined CHIP in 2025; exclude from trends. BCS changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Texas",
+      "state_code": "TX",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR consistently uses FFS/MCO, Administrative methodology, and similar claims sources. New Expansion CHIP wording is inferred to refine classification. CBP excludes FFS/STAR Health/Kids in 2023, adds FFS in 2024, and adds switchers and combined CHIP in 2025; exclude from trends. BCS changes to ECDS.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Utah",
+      "state_code": "UT",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "2025 explicitly changes systems, uses claims calculations, and expands to FFS. CBP in 2024 is labeled Hybrid but comments say Administrative; record the conflict. No primary trend for any of the three measures.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Utah",
+      "state_code": "UT",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "2025 explicitly changes systems, uses claims calculations, and expands to FFS. CBP in 2024 is labeled Hybrid but comments say Administrative; record the conflict. No primary trend for any of the three measures.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Utah",
+      "state_code": "UT",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "2025 explicitly changes systems, uses claims calculations, and expands to FFS. CBP in 2024 is labeled Hybrid but comments say Administrative; record the conflict. No primary trend for any of the three measures.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Vermont",
+      "state_code": "VT",
+      "measure_id": "AMR-AD",
+      "trend_tier": "primary",
+      "review_reason": "AMR consistently uses Medicaid Primary, the same public non-risk PIHP, and Administrative methodology. CHIP refinement is inferred to be a label change. BCS changes to ECDS. CBP uses ages 18+ in all years; exclude each year.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Vermont",
+      "state_code": "VT",
+      "measure_id": "BCS-AD",
+      "trend_tier": "caution",
+      "review_reason": "AMR consistently uses Medicaid Primary, the same public non-risk PIHP, and Administrative methodology. CHIP refinement is inferred to be a label change. BCS changes to ECDS. CBP uses ages 18+ in all years; exclude each year.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Vermont",
+      "state_code": "VT",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR consistently uses Medicaid Primary, the same public non-risk PIHP, and Administrative methodology. CHIP refinement is inferred to be a label change. BCS changes to ECDS. CBP uses ages 18+ in all years; exclude each year.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Virginia",
+      "state_code": "VA",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "No complete three-year official representative rates; exclude from fixed trends. Assess available single-year rates using record-level rules.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Virginia",
+      "state_code": "VA",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "No complete three-year official representative rates; exclude from fixed trends. Assess available single-year rates using record-level rules.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Virginia",
+      "state_code": "VA",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "No complete three-year official representative rates; exclude from fixed trends. Assess available single-year rates using record-level rules.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Washington",
+      "state_code": "WA",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Paid-claims selection is explicit in 2024/25, with a rejected-encounter exception added in 2025. CHIP scope changes in 2023/24; exclude AMR/BCS from strict trends. CBP in 2025 combines the Medicaid MCO rate with Separate CHIP using different systems/methods; exclude from primary trends.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Washington",
+      "state_code": "WA",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Paid-claims selection is explicit in 2024/25, with a rejected-encounter exception added in 2025. CHIP scope changes in 2023/24; exclude AMR/BCS from strict trends. CBP in 2025 combines the Medicaid MCO rate with Separate CHIP using different systems/methods; exclude from primary trends.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Washington",
+      "state_code": "WA",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Paid-claims selection is explicit in 2024/25, with a rejected-encounter exception added in 2025. CHIP scope changes in 2023/24; exclude AMR/BCS from strict trends. CBP in 2025 combines the Medicaid MCO rate with Separate CHIP using different systems/methods; exclude from primary trends.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "West Virginia",
+      "state_code": "WV",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR adds FFS and dual eligibles in 2024. CBP changes from Hybrid to mixed methodology to Administrative; 2025 explicitly under-reports blood pressure readings, so exclude that year. BCS has an age allowable adjustment and changes to ECDS; single-year use requires caution.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "West Virginia",
+      "state_code": "WV",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR adds FFS and dual eligibles in 2024. CBP changes from Hybrid to mixed methodology to Administrative; 2025 explicitly under-reports blood pressure readings, so exclude that year. BCS has an age allowable adjustment and changes to ECDS; single-year use requires caution.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "West Virginia",
+      "state_code": "WV",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR adds FFS and dual eligibles in 2024. CBP changes from Hybrid to mixed methodology to Administrative; 2025 explicitly under-reports blood pressure readings, so exclude that year. BCS has an age allowable adjustment and changes to ECDS; single-year use requires caution.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Wisconsin",
+      "state_code": "WI",
+      "measure_id": "AMR-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Only 2023 has representative AMR/CBP rates. BCS has no representative rate. No three-year trend.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Wisconsin",
+      "state_code": "WI",
+      "measure_id": "BCS-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Only 2023 has representative AMR/CBP rates. BCS has no representative rate. No three-year trend.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Wisconsin",
+      "state_code": "WI",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "Only 2023 has representative AMR/CBP rates. BCS has no representative rate. No three-year trend.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Wyoming",
+      "state_code": "WY",
+      "measure_id": "AMR-AD",
+      "trend_tier": "caution",
+      "review_reason": "AMR remains FFS/Administrative, but Expansion CHIP is added in 2025. Available evidence cannot establish a label-only change; caution-only. BCS changes to ECDS. CBP is available only in 2025.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Wyoming",
+      "state_code": "WY",
+      "measure_id": "BCS-AD",
+      "trend_tier": "caution",
+      "review_reason": "AMR remains FFS/Administrative, but Expansion CHIP is added in 2025. Available evidence cannot establish a label-only change; caution-only. BCS changes to ECDS. CBP is available only in 2025.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    },
+    {
+      "state": "Wyoming",
+      "state_code": "WY",
+      "measure_id": "CBP-AD",
+      "trend_tier": "exclude",
+      "review_reason": "AMR remains FFS/Administrative, but Expansion CHIP is added in 2025. Available evidence cannot establish a label-only change; caution-only. BCS changes to ECDS. CBP is available only in 2025.",
+      "review_basis": "Uploaded CSV Population, Methodology, Notes and State-Specific Comments; includes component rows; analyst v1 adjudication",
+      "confidence": "Project judgment; not CMS certification of state-level comparability."
+    }
+  ],
+  "record_exclusions": {
+    "Florida|BCS-AD|2023": "Explicit target-age mismatch.",
+    "Florida|BCS-AD|2024": "Explicit target-age mismatch.",
+    "Florida|BCS-AD|2025": "Explicit target-age mismatch.",
+    "Florida|CBP-AD|2023": "Explicit target-age mismatch.",
+    "Florida|CBP-AD|2024": "Explicit target-age mismatch.",
+    "Florida|CBP-AD|2025": "Explicit target-age mismatch.",
+    "Indiana|BCS-AD|2023": "Explicit target-age mismatch.",
+    "Indiana|BCS-AD|2024": "Explicit target-age mismatch.",
+    "Indiana|BCS-AD|2025": "Explicit target-age mismatch.",
+    "Indiana|CBP-AD|2023": "Explicit target-age mismatch.",
+    "Indiana|CBP-AD|2024": "Explicit target-age mismatch.",
+    "Indiana|CBP-AD|2025": "Explicit target-age mismatch.",
+    "Ohio|BCS-AD|2023": "Explicit target-age mismatch.",
+    "Ohio|BCS-AD|2024": "Explicit target-age mismatch.",
+    "Ohio|BCS-AD|2025": "Explicit target-age mismatch.",
+    "Ohio|CBP-AD|2023": "Explicit target-age mismatch.",
+    "Ohio|CBP-AD|2024": "Explicit target-age mismatch.",
+    "Ohio|CBP-AD|2025": "Explicit target-age mismatch.",
+    "Kansas|BCS-AD|2023": "Not stratified to the target age range.",
+    "Kansas|BCS-AD|2024": "Not stratified to the target age range.",
+    "Kansas|CBP-AD|2023": "Not stratified to the target age range.",
+    "Kansas|CBP-AD|2024": "Not stratified to the target age range.",
+    "New Jersey|BCS-AD|2023": "Not stratified to the target age range.",
+    "New Jersey|BCS-AD|2024": "Not stratified to the target age range.",
+    "New Jersey|CBP-AD|2023": "Not stratified to the target age range.",
+    "New Jersey|CBP-AD|2024": "Not stratified to the target age range.",
+    "Kentucky|BCS-AD|2023": "Explicitly wider age range.",
+    "Pennsylvania|BCS-AD|2023": "Explicitly wider age range.",
+    "New Mexico|BCS-AD|2023": "Target age cannot be confirmed in 2023; explicitly wider ages in 2025.",
+    "New Mexico|BCS-AD|2025": "Target age cannot be confirmed in 2023; explicitly wider ages in 2025.",
+    "Kentucky|CBP-AD|2023": "Explicitly wider age range.",
+    "Pennsylvania|CBP-AD|2023": "Explicitly wider age range.",
+    "New Mexico|CBP-AD|2023": "Target age cannot be confirmed in 2023; explicitly wider ages in 2025.",
+    "New Mexico|CBP-AD|2025": "Target age cannot be confirmed in 2023; explicitly wider ages in 2025.",
+    "North Carolina|BCS-AD|2023": "Commented age range differs from target; Medicare data also missing in 2024.",
+    "North Carolina|BCS-AD|2024": "Commented age range differs from target; Medicare data also missing in 2024.",
+    "Rhode Island|BCS-AD|2023": "Ages 50+ rather than 50–64.",
+    "Rhode Island|BCS-AD|2025": "Ages 50+ rather than 50–64.",
+    "Rhode Island|CBP-AD|2023": "Ages 18+ rather than 18–64; evidence includes component rows.",
+    "Rhode Island|CBP-AD|2024": "Ages 18+ rather than 18–64; evidence includes component rows.",
+    "Rhode Island|CBP-AD|2025": "Ages 18+ rather than 18–64; evidence includes component rows.",
+    "Tennessee|CBP-AD|2023": "Ages 18+ rather than 18–64; evidence includes component rows.",
+    "Tennessee|CBP-AD|2024": "Ages 18+ rather than 18–64; evidence includes component rows.",
+    "Tennessee|CBP-AD|2025": "Ages 18+ rather than 18–64; evidence includes component rows.",
+    "Vermont|CBP-AD|2023": "Ages 18+ rather than 18–64; evidence includes component rows.",
+    "Vermont|CBP-AD|2024": "Ages 18+ rather than 18–64; evidence includes component rows.",
+    "Vermont|CBP-AD|2025": "Ages 18+ rather than 18–64; evidence includes component rows.",
+    "South Carolina|CBP-AD|2023": "Ages 18–85 rather than 18–64.",
+    "South Carolina|CBP-AD|2024": "Ages 18–85 rather than 18–64.",
+    "Tennessee|BCS-AD|2023": "Ages 50–74 rather than 50–64.",
+    "Oregon|CBP-AD|2023": "Ages 18–85 rather than 18–64.",
+    "Maine|BCS-AD|2023": "Anchor-date/continuous-enrollment rules depart from strict project criteria.",
+    "Maine|BCS-AD|2024": "Anchor-date/continuous-enrollment rules depart from strict project criteria.",
+    "Maine|BCS-AD|2025": "Anchor-date/continuous-enrollment rules depart from strict project criteria.",
+    "Maine|AMR-AD|2023": "Anchor-date/continuous-enrollment rules depart from strict project criteria.",
+    "Maine|AMR-AD|2024": "Anchor-date/continuous-enrollment rules depart from strict project criteria.",
+    "Maine|AMR-AD|2025": "Anchor-date/continuous-enrollment rules depart from strict project criteria.",
+    "Oklahoma|BCS-AD|2023": "Anchor-date/continuous-enrollment rules depart from strict project criteria.",
+    "Oklahoma|BCS-AD|2024": "Anchor-date/continuous-enrollment rules depart from strict project criteria.",
+    "Oklahoma|BCS-AD|2025": "Anchor-date/continuous-enrollment rules depart from strict project criteria.",
+    "Oklahoma|AMR-AD|2023": "Anchor-date/continuous-enrollment rules depart from strict project criteria.",
+    "Oklahoma|AMR-AD|2024": "Anchor-date/continuous-enrollment rules depart from strict project criteria.",
+    "Oklahoma|AMR-AD|2025": "Anchor-date/continuous-enrollment rules depart from strict project criteria.",
+    "Maine|CBP-AD|2025": "Missing laboratory/EHR/supplemental data; measurement completeness limitation.",
+    "Idaho|CBP-AD|2025": "Insufficient CPT-II data; state explicitly describes incomplete data.",
+    "West Virginia|CBP-AD|2025": "State explicitly reports under-reported blood pressure readings; not reliable evidence of poor clinical performance."
+  },
+  "source_sha256": {
+    "2025-adult-core-set.pdf": "abbbfa56127e8bc06c93e331d136fccc26ce2fbc6d73bad8de393349dd2d6f03",
+    "Newly_Reported_Drugs_Data_Dictionary.csv": "53ffc898b6548168920000aae5d57a8d435cba5a7edf17f3a3aaf9bcb5463db7",
+    "NADAC_First_Time_Rates.csv": "a57b7b9fed57a371a92a8abcc9c46114410debe5d4b24d4be42781e1832fd4c4",
+    "pi-dataset-september-2026-release.csv": "6fc730af4f6701968b74c48de4b04e7ea667a1d6cf9821ee7ffde88769e0364e",
+    "2023-child-and-adult-health-care-quality-measures.csv": "aca9f7d29311d86df66fbde969a97f404db6e6b8b0ba22e8ffac4622c031f332",
+    "2025-child-and-adult-health-care-quality-measures.csv": "2ced8b263fad67b099dec2339f4b3288431b061e1475ec87f9768619dec018a3",
+    "2024-child-and-adult-health-care-quality-measures.csv": "7cea1841357c046a9fbd5c548f6eac460e0f14ed76fd70e8eaab6c1bfbf0a859",
+    "Monthly_Enrollment_Data_Dictionary_updated.csv": "2fd045967e7f86d3c381772b49034ffb77860ba735ceae935c730bf7bf684e72",
+    "Newly_Reported_Drugs_Data_Dictionary(1).csv": "53ffc898b6548168920000aae5d57a8d435cba5a7edf17f3a3aaf9bcb5463db7",
+    "TrendingMethodsBrief-2023-2025.pdf": "1ef1f0abdee056e57708e02cfdb1640f994e25c4e0682ce7b7d55b62a99b6193",
+    "2025AdultCoreSetSummary.pdf": "60265a33c79df1916bdfdeb1dea45a3265cfece68a74f65b463ec6073f799663",
+    "2023-2024_Child_and_Adult_Health_Care_Quality_Measures_Quality_Data_Dictionary.csv": "1bdf0ae07b417a8433efcfd531922e0b9b49e9c5b9138f37b4d492859b066cff"
+  }
+}
