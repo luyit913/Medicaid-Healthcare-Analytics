@@ -1,0 +1,32 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Metric validation</title><script src="https://cdn.jsdelivr.net/npm/papaparse@5.5.3/papaparse.min.js"></script><h1>Metric validation</h1><pre id="result">Running…</pre><script type="module">
+import {loadData} from '../js/data.js';
+import * as m from '../js/metrics.js';
+let checks=0;
+function check(ok,message){checks++;if(!ok)throw new Error(message);}
+function near(a,b){return a===null&&b===null || typeof a==='number'&&typeof b==='number'&&Math.abs(a-b)<1e-8;}
+try{
+ const d=await loadData();
+ for(const row of d.annual){check(near(m.enrollmentYoY(d.annual,row.year,row.state_code),row.yoy_pct===null?null:row.yoy_pct/100),`YoY ${row.state_code} ${row.year}`);}
+ check(near(m.annualValue(d.annual,2024,'WA'),1803662.5),'WA annual');
+ check(m.formatEnrollment(m.annualValue(d.annual,2024,'WA'))==='1.80M','Enrollment format');
+ check(m.formatPercent(m.enrollmentYoY(d.annual,2024,'WA'),2)==='-10.21%','YoY format');
+ const expected={'AMR-AD':[43,42,41],'BCS-AD':[33,35,36],'CBP-AD':[27,29,31]};
+ for(const [measure,counts] of Object.entries(expected))for(let i=0;i<3;i++){
+  const year=2023+i;check(m.qualityRows(d.quality,year,measure).length===counts[i],`Coverage ${measure} ${year}`);
+  check(m.pairedRows(d.comparison,year,measure).length===counts[i],`Pairs ${measure} ${year}`);
+ }
+ check(m.cohort(d.primary,'BCS-AD').count===0,'BCS empty cohort');
+ check(m.cohort(d.primary,'BCS-AD').series.every(r=>r.rate===null),'BCS null trend');
+ check(m.cohort(d.primary,'AMR-AD').count===17,'AMR cohort');
+ const cbp=m.cohort(d.primary,'CBP-AD');check(cbp.count===4,'CBP cohort');
+ check(cbp.series.map(r=>m.formatPercent(r.rate)).join(',')==='60.9%,65.2%,68.6%','CBP median and rounding');
+ check(m.rankings(d.annual,2024).map(r=>r.state).join(',')==='NC,SD,AK,CA,ME','Top five');
+ check(m.rankings(d.annual,2024,false).map(r=>r.state).join(',')==='CO,UT,MT,TX,RI','Bottom five');
+ check(m.numberOrNull('')===null,'Empty numeric');check(m.numberOrNull('0')===0,'True zero');
+ check(m.annualValue([{year:2024,state_code:'WA',valid_months:11,avg_month_end_medicaid:100}],2024,'WA')===null,'Incomplete year');
+ check(m.enrollmentYoY([{year:2024,state_code:'WA',valid_months:12,avg_month_end_medicaid:100}],2024,'WA')===null,'Missing baseline');
+ check(m.monthlySeries([],2024,'WA').every(r=>r.value===null),'Missing months');
+ check(m.median([null,0,10])===5,'Median retains zero');
+ document.getElementById('result').textContent=`PASS: ${checks} checks. All 204 annual YoY rows matched CSV values; all 9 quality/comparison groups matched expected coverage.`;
+}catch(error){document.getElementById('result').textContent=`FAIL after ${checks} checks: ${error.message}`;}
+</script>

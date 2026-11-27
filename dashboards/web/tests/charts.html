@@ -1,0 +1,35 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Chart regression tests</title><link rel="stylesheet" href="../css/style.css"><script src="https://cdn.jsdelivr.net/npm/papaparse@5.5.3/papaparse.min.js"></script><script src="https://cdn.plot.ly/plotly-4.1.1.min.js"></script><h1>Chart regression tests</h1><pre id="result">Running…</pre><div id="fixture" style="max-width:700px"></div><script type="module">
+import {loadData} from '../js/data.js';
+import {renderEnrollment} from '../js/enrollment.js';
+import {renderQuality} from '../js/quality.js';
+import {renderComparison,renderTable,comparisonRows} from '../js/comparison.js';
+import {defaults,createStore} from '../js/state.js';
+const $=id=>document.getElementById(id);let n=0;const check=(ok,label)=>{n++;if(!ok)throw Error(label);};
+for(const id of ['monthly-chart','enrollment-map','top-chart','bottom-chart','quality-map','quality-trend','quality-ranking','comparison-scatter','comparison-table','selection-note']){const el=document.createElement('div');el.id=id;$('fixture').append(el);}
+for(const [id,tag] of [['comparison-state','select'],['clear-selection','button']]){const el=document.createElement(tag);el.id=id;$('fixture').append(el);}
+try{
+ const d=await loadData();await renderEnrollment(d,defaults);
+ check($('monthly-chart').data[0].y.length===12,'12 months');
+ check($('enrollment-map').data[0].locations.length===51,'51 map states');
+ check($('enrollment-map').data[0].zmin===-$('enrollment-map').data[0].zmax,'Map centered on zero');
+ const ranks=JSON.stringify($('top-chart').data[0].x);await renderEnrollment(d,{...defaults,state:'CA'});
+ check(JSON.stringify($('top-chart').data[0].x)===ranks,'State does not filter ranking');
+ check($('monthly-chart').data[0].y[0]===d.monthly.find(r=>r.state_code==='CA'&&r.month==='2024-01-01').medicaid,'Monthly state filter');
+ await renderQuality(d,{...defaults,measure:'BCS-AD'});check($('quality-trend').dataset.ready==='empty','BCS empty state');
+ await renderQuality(d,defaults);check(!$('quality-trend').querySelector('.empty-message'),'Empty state removed');
+ check($('quality-ranking').data[0].x.length===29,'29 ranked states');
+ const trend=JSON.stringify($('quality-trend').data[0].y);await renderQuality(d,{...defaults,reportingYear:2025});
+ check(JSON.stringify($('quality-trend').data[0].y)===trend,'Fixed trend unaffected by year');
+ check($('quality-ranking').data[0].x.length===31,'2025 ranking update');
+ await renderComparison(d,defaults,()=>{});
+ check($('comparison-scatter').data[0].x.length===29,'29 dots');
+ check($('comparison-table').querySelectorAll('tbody tr').length===29,'29 rows');
+ renderTable(comparisonRows(d,defaults),'NH');check($('comparison-table').querySelectorAll('tbody tr').length===1,'Single-state table');
+ check($('comparison-table').textContent.includes('-13.6%'),'NH growth');
+ check($('comparison-table').textContent.includes('66.6%'),'NH quality');
+ check($('comparison-scatter').data[0].x.length===29,'Table selection preserves dots');
+ const store=createStore();store.set({selectedComparisonState:'NH'});store.set({reportingYear:2025});check(store.get().selectedComparisonState===null,'Year clears selection');store.set({selectedComparisonState:'NH'});store.set({measure:'BCS-AD'});check(store.get().selectedComparisonState===null,'Measure clears selection');
+ for(const id of ['monthly-chart','enrollment-map','top-chart','bottom-chart','quality-map','quality-trend','quality-ranking','comparison-scatter'])check($(id).dataset.ready==='true',id+' rendered');
+ $('result').textContent=`PASS: ${n} chart and interaction checks.`;
+}catch(e){$('result').textContent=`FAIL after ${n} checks: ${e.message}`;console.error(e);}
+</script></html>
