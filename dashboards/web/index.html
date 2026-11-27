@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore state Medicaid enrollment and healthcare quality using reviewed CMS public data.">
+  <title>Medicaid Healthcare Analytics</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/papaparse@5.5.3/papaparse.min.js"></script>
+  <script defer src="https://cdn.plot.ly/plotly-4.1.1.min.js"></script>
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to dashboard</a>
+  <div class="workspace">
+    <div class="brand"><span>MEDICAID / HEALTHCARE ANALYTICS</span><span class="edition">CMS public data · Portfolio project</span></div>
+    <nav aria-label="Dashboard pages" class="navigation">
+      <button data-page="enrollment" aria-current="page">Enrollment Overview</button>
+      <button data-page="quality">Healthcare Quality Explorer</button>
+      <button data-page="comparison">Enrollment &amp; Quality Comparison</button>
+    </nav>
+    <header class="page-header">
+      <div class="heading"><p id="eyebrow">Enrollment · 2022–2024</p><h1 id="page-title">Enrollment Overview</h1></div>
+      <div class="filters" aria-label="Dashboard filters">
+        <label><span id="year-label">Enrollment year</span><select id="year" disabled aria-labelledby="year-label"></select></label>
+        <label id="state-filter">State<select id="state" disabled></select></label>
+        <label id="measure-filter" hidden>Quality measure<select id="measure" disabled></select></label>
+        <button id="reset" class="reset" disabled>Reset all filters</button>
+      </div>
+    </header>
+    <div id="status" class="status" role="status" aria-live="polite">Loading filter options from the reviewed data…</div>
+    <div id="error" class="error" role="alert" hidden><p id="error-text"></p><button id="retry">Try again</button></div>
+    <noscript><p class="error">Enable JavaScript to use the dashboard filters and charts.</p></noscript>
+    <main id="main" tabindex="-1">
+      <div class="context"><span id="context-text">Preparing dashboard</span><span class="stage">Interactive charts · Reviewed CMS data</span></div>
+      <section id="enrollment" aria-label="Enrollment overview">
+        <div class="grid two kpis">
+          <article class="panel kpi"><h2>Annual Average Enrollment</h2><div class="metric">—</div><p>Average of 12 month-end Medicaid counts</p></article>
+          <article class="panel kpi"><h2>Enrollment YoY Change</h2><div class="metric">—</div><p>Compared with the previous calendar year</p></article>
+        </div>
+        <div class="grid two">
+          <article class="panel"><h2 id="monthly-title">Monthly Enrollment Trend</h2><div id="monthly-chart" class="chart"></div></article>
+          <article class="panel"><h2 id="map-title">Enrollment Change by State</h2><div id="enrollment-map" class="chart"></div><p class="chart-note">Map and rankings compare all eligible states for the selected year, regardless of the state selector.</p><p class="legend"><i class="orange"></i> Decline <i class="neutral"></i> 0% <i class="blue"></i> Growth</p></article>
+          <article class="panel"><h2>Top 5 States by YoY Change</h2><div id="top-chart" class="chart"></div></article>
+          <article class="panel"><h2>Bottom 5 States by YoY Change</h2><div id="bottom-chart" class="chart"></div></article>
+        </div>
+        <details class="methodology"><summary>About these enrollment measures</summary><p>Annual enrollment is the average of 12 month-end Medicaid enrollment counts, not the number of unique people enrolled during the year. Years with incomplete monthly data are excluded from annual comparisons. Preliminary records are retained with their data-quality flags. The state filter applies to the enrollment cards and monthly trend; the map and rankings compare all eligible states.</p></details>
+      </section>
+      <section id="quality" aria-label="Healthcare quality explorer" hidden>
+        <div class="quality-layout"><div>
+          <div class="grid three kpis">
+            <article class="panel kpi"><h2>Reporting States</h2><div class="metric">—</div><p>Eligible data for the selected year</p></article>
+            <article class="panel kpi"><h2>Reporting Coverage</h2><div class="metric">—</div><p>Out of 50 states and DC</p></article>
+            <article class="panel kpi"><h2>Comparable States</h2><div class="metric">—</div><p>Fixed primary cohort · 2023–2025</p></article>
+          </div>
+          <div class="grid two"><article class="panel"><h2>Reported Quality Rate by State</h2><div id="quality-map" class="chart"></div><p class="chart-note">Darker blue indicates a higher reported rate. Gray indicates no eligible data.</p></article>
+          <article class="panel"><h2>Quality Trend — Fixed-State Median</h2><div id="quality-trend" class="chart"></div><p class="chart-note">Fixed primary cohort across 2023–2025; each state receives equal weight. The selected year does not change this trend.</p></article></div>
+        </div><article class="panel ranking"><h2>State Quality Ranking</h2><div id="quality-ranking" class="chart"></div></article></div>
+        <details class="methodology"><summary>About quality coverage and comparability</summary><p>Maps and rankings use eligible rates for the selected reporting year. Trends use a fixed set of states meeting the primary comparability criteria across 2023–2025. A measure with no primary cohort will show an explanation instead of a trend. These cohorts are not nationally representative. Reporting year may differ from the measurement period.</p></details>
+      </section>
+      <section id="comparison" aria-label="Enrollment and quality comparison" hidden>
+        <div class="comparison-layout"><div><article class="panel kpi"><h2>States with Paired Data</h2><div class="metric">—</div><p>States with both eligible measures</p></article><article class="panel scatter"><h2>Enrollment Change and Reported Quality</h2><div id="comparison-scatter" class="chart"></div><p class="chart-note">Each dot is one state. Click a dot to filter the table; click it again or use Clear selection to show all states. The paired-state count stays unchanged.</p></article></div>
+          <article class="panel"><h2>State-Level Comparison</h2><p id="alignment"></p><div class="table-controls"><label for="comparison-state">Filter table by state</label><select id="comparison-state"><option value="">All paired states</option></select><button id="clear-selection" type="button">Clear selection</button></div><p id="selection-note" role="status" aria-live="polite"></p><div id="comparison-table" class="table-scroll" tabindex="0" aria-label="State comparison table"></div></article></div>
+        <details class="methodology" open><summary>How the years are aligned</summary><p>Quality data are compared with enrollment data from the previous year. Measurement periods and covered populations may differ. Associations are descriptive and do not establish causation.</p></details>
+      </section>
+    </main>
+    <footer><span>Source: reviewed CMS Medicaid enrollment and Adult Core Set data</span><span>Descriptive analysis · Not a causal assessment</span></footer>
+  </div>
+</body>
+</html>
